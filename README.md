@@ -1,1 +1,1 @@
-playing the flexbox model in css
+Playing the flexbox layout model in css
