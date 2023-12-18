@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  /*border: 1px solid #fff;   For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+}
+
+.login{
+  margin-left: 26px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: center;
+  background-color: #D6E9FE;
+}
+
+/* for playing with align-items: stretch in .header rule 
+.subscribe, .logo, .social {
+  border: 1px solid red;
+}
+*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 200px;
+  align-items: center;
+}
