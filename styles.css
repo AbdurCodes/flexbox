@@ -82,3 +82,8 @@
 .last-item{
   order: -1
 }
+
+.subscribe, .social{
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
