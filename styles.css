@@ -53,13 +53,14 @@
   justify-content: center;
 }
 
+
 .photo-grid{
   display: flex;
   width: 900px;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
-  align-items: center;
+  flex-direction: row;
+  
   
 
   /*
@@ -74,3 +75,10 @@
   height: 300px;
 }
 
+.first-item{
+  order: 1
+}
+
+.last-item{
+  order: -1
+}
